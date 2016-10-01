@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86630" started-at="2016-10-01T04:53:38Z" finished-at="2016-10-01T04:55:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86630" started-at="2016-10-01T04:53:38Z" finished-at="2016-10-01T04:55:04Z">
+      <class name="com.sel.test.web.LoginFBPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="setup" is-config="true" duration-ms="11737" started-at="2016-09-30T21:54:37Z" finished-at="2016-09-30T21:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createObj()[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="createObj" is-config="true" duration-ms="14" started-at="2016-09-30T21:54:49Z" finished-at="2016-09-30T21:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObj -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="testLogin" duration-ms="895" started-at="2016-09-30T21:54:49Z" finished-at="2016-09-30T21:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLoginFB(java.lang.String, java.lang.String)[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="testLoginFB" duration-ms="11463" started-at="2016-09-30T21:54:50Z" data-provider="user-data" finished-at="2016-09-30T21:55:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFB -->
+        <test-method status="PASS" signature="testLoginFB(java.lang.String, java.lang.String)[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="testLoginFB" duration-ms="2481" started-at="2016-09-30T21:55:02Z" data-provider="user-data" finished-at="2016-09-30T21:55:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[madhavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wbl1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFB -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sel.test.web.LoginFBPageTest@5b275dab]" name="teardown" is-config="true" duration-ms="282" started-at="2016-09-30T21:55:04Z" finished-at="2016-09-30T21:55:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sel.test.web.LoginFBPageTest -->
+      <class name="com.sel.test.web.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sel.test.web.HomePageTest@523884b2]" name="setup" is-config="true" duration-ms="48984" started-at="2016-09-30T21:53:38Z" finished-at="2016-09-30T21:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createObj()[pri:0, instance:com.sel.test.web.HomePageTest@523884b2]" name="createObj" is-config="true" duration-ms="61" started-at="2016-09-30T21:54:27Z" finished-at="2016-09-30T21:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObj -->
+        <test-method status="PASS" signature="testTSLogoPresent()[pri:1, instance:com.sel.test.web.HomePageTest@523884b2]" name="testTSLogoPresent" duration-ms="306" started-at="2016-09-30T21:54:27Z" finished-at="2016-09-30T21:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTSLogoPresent -->
+        <test-method status="PASS" signature="testIsBGImagePresent()[pri:2, instance:com.sel.test.web.HomePageTest@523884b2]" name="testIsBGImagePresent" duration-ms="211" started-at="2016-09-30T21:54:27Z" finished-at="2016-09-30T21:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBGImagePresent -->
+        <test-method status="PASS" signature="testScreenFirstHeading()[pri:3, instance:com.sel.test.web.HomePageTest@523884b2]" name="testScreenFirstHeading" duration-ms="1088" started-at="2016-09-30T21:54:28Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenFirstHeading -->
+        <test-method status="PASS" signature="testScreenFirstSubHeading()[pri:4, instance:com.sel.test.web.HomePageTest@523884b2]" name="testScreenFirstSubHeading" duration-ms="246" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenFirstSubHeading -->
+        <test-method status="PASS" signature="testSignUpNowPresent()[pri:5, instance:com.sel.test.web.HomePageTest@523884b2]" name="testSignUpNowPresent" duration-ms="77" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpNowPresent -->
+        <test-method status="PASS" signature="testFeaturesHeading()[pri:6, instance:com.sel.test.web.HomePageTest@523884b2]" name="testFeaturesHeading" duration-ms="175" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturesHeading -->
+        <test-method status="PASS" signature="testFeaturePanels()[pri:7, instance:com.sel.test.web.HomePageTest@523884b2]" name="testFeaturePanels" duration-ms="113" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturePanels -->
+        <test-method status="PASS" signature="testFeaturedSubjsHeading()[pri:8, instance:com.sel.test.web.HomePageTest@523884b2]" name="testFeaturedSubjsHeading" duration-ms="64" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturedSubjsHeading -->
+        <test-method status="PASS" signature="testFeaturedSubjsSubHeading()[pri:9, instance:com.sel.test.web.HomePageTest@523884b2]" name="testFeaturedSubjsSubHeading" duration-ms="170" started-at="2016-09-30T21:54:29Z" finished-at="2016-09-30T21:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturedSubjsSubHeading -->
+        <test-method status="PASS" signature="testFeaturedSubsDraggableList()[pri:10, instance:com.sel.test.web.HomePageTest@523884b2]" name="testFeaturedSubsDraggableList" duration-ms="95" started-at="2016-09-30T21:54:30Z" finished-at="2016-09-30T21:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFeaturedSubsDraggableList -->
+        <test-method status="PASS" signature="testBrowseSubjectsButton()[pri:11, instance:com.sel.test.web.HomePageTest@523884b2]" name="testBrowseSubjectsButton" duration-ms="2176" started-at="2016-09-30T21:54:30Z" finished-at="2016-09-30T21:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowseSubjectsButton -->
+        <test-method status="PASS" signature="testIsBGImage2Present()[pri:12, instance:com.sel.test.web.HomePageTest@523884b2]" name="testIsBGImage2Present" duration-ms="199" started-at="2016-09-30T21:54:32Z" finished-at="2016-09-30T21:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsBGImage2Present -->
+        <test-method status="PASS" signature="testTestimonials()[pri:13, instance:com.sel.test.web.HomePageTest@523884b2]" name="testTestimonials" duration-ms="39" started-at="2016-09-30T21:54:32Z" finished-at="2016-09-30T21:54:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestimonials -->
+        <test-method status="PASS" signature="testSubjectsLinkPresent()[pri:14, instance:com.sel.test.web.HomePageTest@523884b2]" name="testSubjectsLinkPresent" duration-ms="1602" started-at="2016-09-30T21:54:32Z" finished-at="2016-09-30T21:54:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubjectsLinkPresent -->
+        <test-method status="PASS" signature="testCandidateLinkPresent()[pri:15, instance:com.sel.test.web.HomePageTest@523884b2]" name="testCandidateLinkPresent" duration-ms="1326" started-at="2016-09-30T21:54:34Z" finished-at="2016-09-30T21:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCandidateLinkPresent -->
+        <test-method status="PASS" signature="testLoginLinkPresent()[pri:16, instance:com.sel.test.web.HomePageTest@523884b2]" name="testLoginLinkPresent" duration-ms="1651" started-at="2016-09-30T21:54:35Z" finished-at="2016-09-30T21:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLinkPresent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.sel.test.web.HomePageTest@523884b2]" name="teardown" is-config="true" duration-ms="260" started-at="2016-09-30T21:54:37Z" finished-at="2016-09-30T21:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.sel.test.web.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
